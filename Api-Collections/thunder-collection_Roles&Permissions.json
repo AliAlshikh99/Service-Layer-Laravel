@@ -1,0 +1,121 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Roles&Permissions",
+    "collectionId": "5bf8a8ed-5875-453d-8169-5086e8facf36",
+    "dateExported": "2024-05-08T19:56:55.827Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ddad1fd4-0072-4233-8a30-8eb086f91e39",
+            "colId": "5bf8a8ed-5875-453d-8169-5086e8facf36",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8000/api/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-08T19:34:08.867Z",
+            "modified": "2024-05-08T19:51:47.172Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "Ali963xx@test.test"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456789"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "Z6WAbSmtkpQk9yJXq3wl2t2Eh2m3UGSz1lD5dAcKec6459f6"
+            }
+        },
+        {
+            "_id": "acbf3fe5-c986-4f5a-8856-559bb2e83508",
+            "colId": "5bf8a8ed-5875-453d-8169-5086e8facf36",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:8000/api/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-08T19:35:45.055Z",
+            "modified": "2024-05-08T19:51:29.124Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Ali"
+                    },
+                    {
+                        "name": "email",
+                        "value": "Ali963xx@test.test"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456789"
+                    },
+                    {
+                        "name": "role",
+                        "value": "2"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "ce34f228-f482-4cf5-a205-24d49df936a6",
+            "colId": "5bf8a8ed-5875-453d-8169-5086e8facf36",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://127.0.0.1:8000/api/logout",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-08T19:38:59.654Z",
+            "modified": "2024-05-08T19:52:07.742Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|bRoVzMqUSWRei7ZIRU65fcGUakFnI4h5T6X0xIDTc5abad1d"
+            }
+        },
+        {
+            "_id": "0fbada24-e461-4fe1-af5a-e4feb5a86c15",
+            "colId": "5bf8a8ed-5875-453d-8169-5086e8facf36",
+            "containerId": "",
+            "name": "projects",
+            "url": "http://127.0.0.1:8000/api/index",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-08T19:45:40.337Z",
+            "modified": "2024-05-08T19:52:28.742Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "App-Version",
+                    "value": "1.0.0"
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "11|bRoVzMqUSWRei7ZIRU65fcGUakFnI4h5T6X0xIDTc5abad1d"
+            }
+        }
+    ],
+    "ref": "eZV28pFko8GqWqXa-EsmcR4OzaWFVYLMX2rYl7rirM5uu7fxYcYeW-43JyuSn23PIVOsyaNNUVB_s6xJdCm8Cw"
+}
